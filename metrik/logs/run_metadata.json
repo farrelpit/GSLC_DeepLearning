@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-10-12T12:59:48",
+  "python": "3.13.15",
+  "torch": "2.11.0+cu130",
+  "device": "cuda",
+  "gpu": "Tesla T4",
+  "config": {
+    "seed": 42,
+    "batch_size": 32,
+    "weight_decay": 0.01,
+    "max_epochs": 100,
+    "patience": 5,
+    "num_workers": 2,
+    "resize_size": 256,
+    "img_size": 224,
+    "split": [
+      0.7,
+      0.15,
+      0.15
+    ],
+    "pretrained": true,
+    "b4_base": "B3",
+    "b5_arch": "efficientnet_b0",
+    "data_root": "./data",
+    "out_dir": "./outputs"
+  },
+  "selected_classes": [
+    "Abyssinian",
+    "Bengal",
+    "Egyptian Mau",
+    "Maine Coon",
+    "Siamese",
+    "Beagle",
+    "Boxer",
+    "Pug",
+    "Samoyed",
+    "Shiba Inu"
+  ],
+  "split_sizes": {
+    "train": 1390,
+    "val": 298,
+    "test": 298
+  },
+  "best_model_by_val_macro_f1": "B2"
+}

@@ -1,0 +1,9 @@
+file,ground_truth,prediction,confidence,prob_true_class,failure_hypothesis
+pug_74.jpg,Pug,Boxer,0.9944,0.0017,
+Egyptian_Mau_214.jpg,Egyptian Mau,Bengal,0.9332,0.0208,
+Egyptian_Mau_84.jpg,Egyptian Mau,Bengal,0.8831,0.0664,
+Bengal_2.jpg,Bengal,Egyptian Mau,0.8109,0.1891,
+Bengal_188.jpg,Bengal,Egyptian Mau,0.7831,0.2028,
+shiba_inu_156.jpg,Shiba Inu,Maine Coon,0.7482,0.0189,
+Abyssinian_101.jpg,Abyssinian,Bengal,0.7032,0.1928,
+beagle_198.jpg,Beagle,Boxer,0.6894,0.3047,
